@@ -1,0 +1,185 @@
+/* styles.css pour contact.ejs */
+
+/* Mise en forme générale de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff12d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.formulaire {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 45%;
+}
+
+.formulaire h2 {
+    font-size: 2em;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn {
+    background-color: #e67e22;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #d35400;
+}
+
+.infos {
+    width: 45%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.infos h3 {
+    font-size: 2em;
+    color: #e67e22;
+    margin-bottom: 20px;
+}
+
+.infos ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.infos a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 40px;   
+}
+
+/*Css Classement */
+.classement-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .classement-table th,
+  .classement-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  .classement-table th {
+    background-color: rgb(238, 72, 21);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .classement-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .classement-table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+/* fin du css Classement */  
+
+/* Css Tableau Championnat */
+
+th,
+td {
+  border: 5px solid rgb(133, 127, 127);
+  padding: 8px 10px;
+}
+
+th[scope='col'] {
+  background-color: #f0da77;
+  color: #fff;
+}
+
+th[scope='row'] {
+  background-color: #d6ecd4;
+}
+th[scope='col'] {
+  background-color: #e04d4d;
+  color: #fff;
+}
+ th[scope='row'] {
+    background-color: #f0da77;
+ }
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+  background-color: #eee;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+};
+
+/*Fin css tableau championnat */
